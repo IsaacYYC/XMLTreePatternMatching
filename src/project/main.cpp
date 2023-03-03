@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include "tinyxml2.h"
+#include "TreeMatchUtility.h"
 #include <cerrno>
 #include <cstdlib>
 #include <cstring>
@@ -17,6 +18,9 @@ int main() {
 	std::cout << b << std::endl;
 	doc.PrintError();
 	doc.Print();
+	std::cout << doc.RootElement()->Name() << std::endl;
+	std::cout << isLeaf(doc.RootElement()) << std::endl;
+	std::cout << numOfChildren(doc.RootElement()) << std::endl;
 
 	/*XMLText* textNode = doc.FirstChildElement( "employee" )->FirstChildElement( "id" )->FirstChild()->ToText();
 	const char* id = textNode->Value();
