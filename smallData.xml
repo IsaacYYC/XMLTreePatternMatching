@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person>
+  <employees>
+    <employee>
+      <name>John Smith</name>
+      <compensation>
+        <salary>55000</salary>
+        <commission>10%</commission>
+      </compensation>
+    </employee>
+    <employee>
+      <name>Jane Doe</name>
+      <compensation>
+        <salary>60000</salary>
+      </compensation>
+    </employee>
+    <employee>
+      <name>Michael Johnson</name>
+      <compensation>
+        <salary>45000</salary>
+      </compensation>
+    </employee>
+    <employee>
+      <name>Emily Thompson</name>
+      <compensation>
+        <salary>55000</salary>
+        <stock>10000</stock>
+      </compensation>
+    </employee>
+    <employee>
+      <name>William Brown</name>
+      <compensation>
+        <salary>70000</salary>
+        <stock>20000</stock>
+        <commission>10%</commission>
+      </compensation>
+    </employee>
+  </employees>
+  <clients>
+    <client>
+      <name>Samantha Lee</name>
+      <account_number>12345</account_number>
+    </client>
+    <client>
+      <name>David Chen</name>
+      <account_number>23456</account_number>
+      <cart_total>75</cart_total>
+    </client>
+    <client>
+      <name>Alice Kim</name>
+      <account_number>34567</account_number>
+    </client>
+    <client>
+      <name>Tom Wilson</name>
+      <account_number>45678</account_number>
+    </client>
+  </clients>
+</person>

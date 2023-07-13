@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person>
+  <clients>
+    <client>
+      <name></name>
+      <account_number></account_number>
+      <cart_total></cart_total>
+    </client>
+  </clients>
+</person>

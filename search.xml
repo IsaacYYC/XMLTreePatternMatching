@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person>
+  <employees>
+    <employee>
+      <name></name>
+      <compensation>
+        <salary></salary>
+        <commission></commission>
+      </compensation>
+    </employee>
+  </employees>
+</person>

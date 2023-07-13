@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person>
+  <clients>
+    <client>
+      <name></name>
+      <account_number></account_number>
+    </client>
+  </clients>
+</person>
+
+<person>
+    <clients>
+      <client>
+        <name></name>
+        <account_number></account_number>
+        <card_number></card_number>
+      </client>
+    </clients>
+  </person>
+
+  <person>
+    <employees>
+      <employee>
+        <name></name>
+        <compensation>
+          <salary></salary>
+          <stock></stock>
+        </compensation>
+      </employee>
+    </employees>
+  </person>
